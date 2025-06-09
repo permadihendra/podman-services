@@ -1,8 +1,9 @@
 # podman-services
 
-**How to run the services**
+**Deploy Postgres**
 
 ```bash
 cd podman-services/postgres-db
+podman-compose build
 podman-compose up -d
 ```
