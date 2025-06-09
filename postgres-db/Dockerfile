@@ -1,4 +1,4 @@
-FROM postgres:15
+FROM postgres:16
 
 # Install pgvector extension
 RUN apt-get update && \
@@ -8,4 +8,4 @@ RUN apt-get update && \
     cd .. && rm -rf pgvector
 
 # Set default database
-ENV POSTGRES_DB=mydb
+ENV POSTGRES_DB=db1
