@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   pgvector-db:
-    image: ankane/pgvector
+    image: docker.io/ankane/pgvectorankane/pgvector
     container_name: pgvector-db
     restart: unless-stopped
     env_file:
