@@ -1,4 +1,4 @@
-FROM postgres:16
+FROM docker.io/library/postgres:15
 
 # Install pgvector extension
 RUN apt-get update && \
